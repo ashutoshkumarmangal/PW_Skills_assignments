@@ -1,0 +1,22 @@
+Ans 1-->> Computer is an electronic device that takes data as input then process it and provide the meaningful information. Computer can also store the data. Computer uses binary language to process the data. Computer consist of various input and output devices through which it can be used. It consist of cpu, keyboard , mouse etc.
+
+
+Ans 2-->> RAM stands for Random Access Memory.Ram is also considered the primary memory since it is connected to processor directly. RAM is the hardware in a computing device where the operating system, application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other kinds of storage, such as a hard disk drive (HDD), solid-state drive (SSD).
+
+Random Access Memory is volatile. That means data is retained in RAM as long as the computer is on, but it is lost when the computer is turned off. When the computer is rebooted, the OS and other files are reloaded into RAM, usually from an HDD or SSD.
+
+
+Ans 3-->> Data is stored in hard disk which is usually known as secondary memory. Sice it it non-volatile so the data is not lost here when the computer is turned off. Data that is currently is in use in use are kept in RAM so that they can be easily accessed but since it is volatile when the computer is turned off the data from the RAM is lost.
+
+
+Ans 4-->> Keyboard
+
+Ans 5-->>Output devices are the devices that after processing the data display it to the user. Moniter, printer, Scanner etc help the processed data to be visible to user.
+
+Ans 6-->> mouse
+
+Ans 7-->> Machine language
+
+Ans 8-->> Input devices are those devices that take input from the user to get the data that can be processed. Input devices are keyboard, mouse etc. 
+
+ 
