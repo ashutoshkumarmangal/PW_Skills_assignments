@@ -1,0 +1,31 @@
+Ans 1-->> Git is free and open-source software.It is distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
+
+Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+Ans 2-->>Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members. 
+
+Ans 3-->> GitHub is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+
+It is commonly used to host open source software development projects.
+
+Ans 4-->>Some of the git hosting services are:-
+   1. Github
+   2. Bitbucket
+   3. Gitlab
+   4. perforce
+   5. codebase
+   6. sourceForge
+
+Ans 5-->> There are two types of version control system
+   1.Centralised version control system
+   2.Distributed version control system
+
+Ans 6-->>Some of the benefit of using git is:-
+   1. Performance - New code changes can be easily committed, version branches can be effortlessly compared and       merged, and code can also be optimized to perform better.
+   2. Security - Git is designed specially to maintain the integrity of source code. File contents as well as the relationship between file and directories, tags, commits, versions etc. are secured cryptographically using an algorithm called SHA1 which protects the code and change history against accidental as well as malicious damage.
+   3. Flexibility - it offers to support several kinds of nonlinear development workflows and its efficiency in handling both small scale and large scale projects as well as protocols. It is uniquely designed to support tagging and branching operations
+   4. Widely accepted 
+
+Ans 6-->> A Git repository is the .git/ folder inside a project. This repository tracks all changes made to files in your project, building a history over time. Meaning, if you delete the .git/ folder, then you delete your project’s history.
+
+Ans 7-->> Git repository can be initialised by using the command "git init".
