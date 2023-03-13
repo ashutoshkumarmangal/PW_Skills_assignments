@@ -1,0 +1,19 @@
+Ans 1-->> git version or git --version
+
+Ans 2-->> git init
+
+Ans 3-->> git config --global user.name "ashutosh79"
+          git config --global user.email "aashuakm12@gmail.com"
+
+Ans 4-->> git add .    //to add all the files present
+          git add <file name>   //to add  a particular file
+
+Ans 5-->>git rm --cached Assignment1.txt
+
+Ans 6-->>After adding the file to the staging area to commit a file we need to type
+         git commit -m "commiting my file"
+
+Ans 7-->>git push origin main ==this help to send the changes to the remote repository
+
+Ans 8-->> Clone is copying the file from the github.Here each member of the team clone the same file to his system.
+ But if there is a situation that Developer 1 commit some changes to the file than that will not be visible to other member.So he will need to pull by writing the command git pull to get the changes to his system.
