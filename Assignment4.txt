@@ -1,0 +1,38 @@
+Ans 1-->>A programming language is a computer language that is used by programmers to communicate with computers. It is a set of instructions written in any specific language ( C, C++, Java, Python) to perform a specific task.
+
+A programming language is mainly used to develop desktop applications, websites,and mobile applications.
+
+Ans 2-->> As we know, to communicate with a person, we need a specific language, similarly to communicate with computers, programmers also need a language is called Programming language.
+
+Ans 3-->> Features of Java includes:-
+        1.Java is simple and easy to learn and understand.
+        2.Java is an object oriented programming language.
+        3.Java is platform independent as it generate a byte code that can be used on any machine with help of      
+          JVM.It follow Write once, run anywhere.
+        4.Java is best known for its security since it does not contain pointer and also java program run inside a 
+          virtual machine sandbox.There is bytecode verifier and also classloader which is used to load Java classes    
+          into the JVM dynamically.
+        5. Java is robust language because it uses strong memory management, provides automatic garbage collection 
+          and also it has exception handling and type checking mechanism.
+        6.Java is high-performance language as compared to other language.
+
+Ans 4-->> Object can be considerd as the instance of class.Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+
+Ans 5-->> A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity.
+
+Ans 6-->>The main() is the starting point for JVM to start execution of a Java program. Without the main() method, JVM will not execute the program.
+Syntax:- public static void main
+
+public: It is an access specifier. We should use a public keyword before the main() method so that JVM can identify the execution point of the program. If we use private, protected, and default before the main() method, it will not be visible to JVM.
+
+static: You can make a method static by using the keyword static. We should call the main() method without creating an object. Static methods are the method which invokes without creating the objects, so we do not need any object to call the main() method.
+
+void: In Java, every method has the return type. Void keyword acknowledges the compiler that main() method does not return any value.
+
+main(): It is a default signature which is predefined in the JVM. It is called by JVM to execute a program line by line and end the execution after completion of this method.
+
+String args[]: The main() method also accepts some data from the user. It accepts a group of strings, which is called a string array. It is used to hold the command line arguments in the form of string values.
+
+main(String args[])  
+Here, agrs[] is the array name, and it is of String type. It means that it can store a group of string.Values passed to the main() method is called arguments. These arguments are stored into args[] array, so the name args[] is generally used for it.
+
