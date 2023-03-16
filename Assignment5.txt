@@ -1,0 +1,69 @@
+Ans 1-->>In statically typed language type checking is done at the compile time while in dynamically typed language is completed during the runtime.
+In statically typed language datatype must be declared and it is specified at the compile time while in dynamically typed language datatype is not required to be declared instead the datatype is determined at the runtime based on the value assigned to it.
+In Statically typed language more optimised code can be produce while in dynamically typed language error may occur at the runtime due to the wrong consideration of datatype.
+
+Ans 2-->>Variable can be defined as a container that holds the value while the program is being executed.A variable is assigned with the datatype.
+
+Ans 3-->> datatype variable = value;
+          eg:- int number = 10;
+
+Ans 4-->> Primitive datatype in java are the most basic datatype that are used in Java. They are predefined in the language.They are:-
+      datatype:  1.> non-primitive datatype
+                 2.> primitive datatype---
+                                          |
+                                          v
+
+                 2.a.> boolean
+                   b.> numeric
+
+                   b.i.>   character   --> char 
+                     ii.>  Integer    --> byte , short, int ,long
+                     iii.> floting point --> float, double
+
+Ans 5-->> Identifiers are names given to variables, methods, classes, and other entities in a programming 
+          language. In other words, an identifier is a name used to identify an element in a program.
+          eg:-
+           int myVar;
+           String firstName;
+           myVar, firstName are the identifiers
+
+Ans 6-->>Operators in Java are special symbols or characters that perform various operations on one or more operands.Some of the operators used are:
+
+Arithmetic operators: +, -, *, /, and %.
+
+Assignment operators: +=, -=, *=, /=, and %=.
+
+Comparison operators:  ==, !=, <, >, <=, and >=.
+
+Logical operators: &&, ||, and !.
+
+Bitwise operators: &, |, ^, ~, <<, >>, and >>>.
+
+Ternary operator: a short way of writing an if-else statement in a single line. The ternary operator in Java is denoted by ? and : symbols.
+
+Ans 7-->> Increament and decreament operators in java are :--   
+          post increment: a++;   
+          pre increment: ++a;
+          post decreament : a--;
+          pre decreament : --a;
+    eg:-
+         public class Demo{
+         public static void main(String args[]){
+         int a = 10;
+         int b = ++a; // b = 11; a = 10;
+         int c = a++; // c = 11; a = 12;
+         int d = a--;  // d = 12; a = 11;
+         int e = --a;   // e = 10; a =9;
+         System.out.println(b);
+         System.out.println(c);
+         System.out.println(d); 
+         System.out.println(e);
+           }
+         }
+
+
+
+
+
+
+
