@@ -1,0 +1,79 @@
+Ans 1-->>The Java Conditional Operator selects one of two expressions for evaluation, which is based on the value of the first operands. It is also called ternary operator because it takes three arguments.
+Syntax: expression1 ? expression2:expression3;
+eg:- val == 0 ? you are right:you are not right;
+
+Ans 2-->>There are three types of operators based on the number of operands. An operator is called a unary, binary, or ternary operator based on the number of operands. If an operator takes one operand, it is called a unary operator; if it takes two operands, it is called a binary operator; if it takes three operands, it is called a ternary operator.
+
+Ans 3-->>The switch statement is a multi-way branch statement. In simple words, the Java switch statement executes one statement from multiple conditions. It is like an if-else-if ladder statement. It basically tests the equality of variables against multiple values.
+Syntax :- switch(expression)
+{
+   
+   case value1 :
+      // Statements
+      break;
+   
+   case value2 :
+      // Statements
+       break;
+}
+
+Ans 4-->> 
+
+!, +, -(unary operators) = first
+*, / ,%                  = second
++ , -                    = third
+<, <= ,>=, >             = fourth
+== , !=                  = fifth
+&&                       = sixth
+||                       = seventh
+= (assignment operators) = lowest   
+
+Ans 5-->> The conditional statement is a branch of code that can be executed depending on another condition. In Java, these clauses are called decision or selection statements.
+
+There are following types of Java conditional statements:-
+
+1. If statement
+
+2. If-Else statement
+
+3. If-Else-If Ladder statement
+
+4. Nested If statement
+
+5. Switch statement
+
+Ans 6-->> Sysntax:--
+
+if(condition){
+  //code 
+     }
+else{
+ //code
+}
+
+Ans 7-->>  Three types of iterative statements in java are:-
+           1. for loop
+           2. while loop
+           3. do while loop
+
+Ans 8-->>  for( initialisation; testing ; increment/decreament){
+            //statements
+           }
+
+           do{
+           //statements
+           }
+           while(conditions);
+
+In for loop statements  is executed once the condition is checked while in do while condition is checked after the statements  is executed.
+In for loop it might be that the statements is executed zero times while in do while loop statement is executed atleast once.
+
+Ans 9-->>
+//program to print number from 1 to 10
+
+public class Numbers{
+public static void main(String args[]){
+for(int i=1;i<11;i++){
+System.out.println(i);
+}
+}
