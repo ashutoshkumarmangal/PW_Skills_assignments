@@ -1,0 +1,22 @@
+Ans 1-->> To create a object in Java we use new keyword.
+          ClassName object = new ClassName();
+
+Ans 2-->> It is used to create the object.
+          It allocate the memory at runtime.
+          All objects occupy memory in the heap area.
+
+Ans 3-->> There are three different types of variable in java.
+         1.local variable 
+         2.Instance variable
+         3. Static variable
+
+Ans 4-->>Instance variable defined in class but outsede the body of methods.While local variable are defined as a type of variable declared within the blocks.
+
+Instance variable can be accessed throughout the class. while local variable access is limited to the method in which it is declared.
+
+Instance variable is not compulsory to initialise before use. while local variable is importance to initialise in local variable.
+
+Ans 5-->> Memory for instance variable is allocated in heap area. while for local variable memory is allocated in stack.
+
+Ans 6-->> Method Overriding is used when we use the same method again and again.
+          
