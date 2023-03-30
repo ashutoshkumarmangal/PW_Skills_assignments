@@ -1,0 +1,51 @@
+Ans 1-->> If you create an array as instance variable, you need to initialize it else the compiler initializes with default values which are −
+
+Integer − 0
+Byte − 0
+Float − 0.0
+Boolean − false
+String/Object − null
+
+Ans 2-->> No, we cannot have array size in negative.
+
+Ans 3-->> Array is stored in the heap memory area.
+
+Ans 4--> Array has fixed size so if we want to increse the size then we can not do that.
+         Insertion and deletion can be isssue.
+
+Ans 5-->> Anonymous array in java is used when array is used just once . Can be defined directly inside the method.
+
+
+class Test {
+	public static void main(String[] args)
+	{
+		// anonymous array
+		sum(new int[]{ 1, 2, 3 });
+	}
+
+	public static void sum(int[] a)
+	{
+		int total = 0;
+
+		for (int i : a)
+			total = total + i;
+		
+		System.out.println("The sum is: " + total);
+	}
+}
+
+Ans 6-->>  To traverse an array we can use for loop or enhanced for loop.
+
+Ans 7-->> length() is method that is used to find the length of string in java while length can be used to find the length of the array.
+
+public class length1{
+public static void main(String args[]){
+int arr[]  = {2,3,4,5};
+String a = "ashutosh";
+for(int i=0;i<arr.length;i++){
+    System.out.println("array at index" +i+ " is "+arr[i]);
+}
+System.out.println("The size of the String is "
+                           + a.length());
+}
+}
