@@ -1,0 +1,43 @@
+Ans 1-->> Java array is an object that contains elements of similar datatype and is present at contiguous memory allocation.
+
+Ans 2-->> To create an array :-
+      for 1D array
+      int arr[] = new int[5];
+      
+      for 2D array
+      int arr[][] = new int[2][3];
+
+Ans 3-->> No, one cannot change the size of the array at the runtime.
+
+Ans 4-->>Yes, we can declare an array without assigning the size.
+
+Ans 5-->> If you create an array as instance variable, you need to initialize it else the compiler initializes with default values which are −
+
+Integer − 0
+Byte − 0
+Float − 0.0
+Boolean − false
+String/Object − null
+
+Ans 6-->>1D array are the simple array that are stored linearly and can be accessed simply by the index number.
+          int arr[] = {2,3,4,5};
+
+Ans 7 -->> 2D array can be defined as the array inside the array. 
+           int arr[][] =  {{2,3,4},
+                            {6,5,7},
+                            {2,3,4}};
+public class 2D {
+    public static void main(String[] args) {
+        
+            int arr[][] =              {{2,3,4},
+                                        {6,5,7},
+                                        {2,3,4}};
+            for(int i=0; i<arr.length;i++){
+               for(int j =0; j<arr[i].length; j++){
+            System.out.println("element at "+i+" "+j+" is "+arr[i][j]);
+                      }
+               }
+       }  
+}
+               
+                            
