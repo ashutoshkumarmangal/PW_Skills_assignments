@@ -1,0 +1,107 @@
+Ans 1-->> 
+import java.util.*;
+public class StringInput{
+public static void main(String[] args){
+System.out.println("enter your name: ");
+Scanner sc = new Scanner(System.in);
+String a =  sc.nextLine();
+
+System.out.println("Your name is "+a); 
+
+}
+
+}
+
+Ans 2-->> (1)using StringBuilder/Buffer
+import java.util.*;
+public class string1 {
+public static void main(String[] args){
+StringBuilder b = new StringBuilder("Lionel");
+System.out.println(b);
+b.append(" Messi");
+System.out.println(b);
+}
+}  
+
+(2)using string
+import java.util.*;
+public class string1 {
+public static void main(String[] args){
+String b = new String("Lionel");
+System.out.println(b);
+b=b.concat(" Messi");
+System.out.println(b);
+}
+} 
+
+Ans 3-->>To find the length of the string in Java we use length() function.
+eg:- b.length();   // where b is refering to the string.
+import java.util.*;
+public class string1 {
+ 
+    public static void main(String[] args){
+    String b = new String("Lionel");
+    String b1 = new String("Messi");
+    System.out.println(b);
+    //System.out.println(b1);
+   // System.out.println(b.equals(b1));
+    System.out.println(b.length());
+    }
+    } 
+
+Ans 4-->>
+import java.util.*;
+public class string1 {
+ 
+    public static void main(String[] args){
+    String b = new String("Lionel");
+    String b1 = new String("Messi");
+    System.out.println(b);
+    System.out.println(b1);
+    System.out.println(b.equals(b1));
+    }
+    } 
+Ans 5-->>
+import java.util.*;
+public class string1 {
+   // import java.util.*;
+   // public class string1 {
+    public static void main(String[] args){
+    String b = "refrigerator";
+   // String b1 = new String("Messi");
+    System.out.println(b);
+    
+    //System.out.println(b.equals(b1));
+    System.out.println(b.length());
+    }
+    } 
+Ans 6-->>
+import java.util.*;
+public class string1 {
+   
+    public static void main(String[] args){
+    
+    String b = "umbrella";
+   
+    System.out.println(b);
+    
+    System.out.println(b.contains("e"));
+    }
+    } 
+Ans 7--> 
+import java.util.*;
+public class string1 {
+   
+    public static void main(String[] args){
+   
+    String b = "Hello, have a good day";
+   
+    b=b.toLowerCase();
+    System.out.println(b);
+    String b1 = "([aeiou]+)";
+    String result = b.replaceAll(b1, "");
+    
+    System.out.println(result);
+    
+    }
+    } 
