@@ -1,0 +1,13 @@
+Ans 1-->> In Java String is basically an object that represents sequence of character inside "". And this object is created using string literals and by using new keyword.
+
+Ans 2-->> Strings can be mutable and immutable.
+
+Ans 3-->> Java string objects are cretead using two ways :-- using string literals and by using new keyword.
+
+Ans 4-->> String constant pool is an place in heap memory where when we create an string object it is stored in scp.
+The main concept is not to create object again and again. If  the string literal is present already in the scp then instead of created new object reference it pointed to the same literal.
+
+Ans 5-->> Mutable string are the string that changeable and no need to create object in the memory each time the string is changed. It is created using StringBuilder and StringBuffer.
+Immutable string are the string object whose value cannot be changed once initailsed. If we want to change the value than a new object is created each time.
+
+Ans 6-->> String constant pool is located in the heap memory.
