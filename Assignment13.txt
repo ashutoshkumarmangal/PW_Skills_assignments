@@ -1,0 +1,235 @@
+Ans 1-->>
+import java.util.*;
+
+public class DuplicateOfStrings {
+    public static void main(String[] args) {
+        String b = "Morocoo";
+        String c = b.toLowerCase();
+        String result = removeDuplicates(c);
+        System.out.println(result);
+    }
+    public static String removeDuplicates(String str){
+
+        String result = "";
+        for(int i=0;i<str.length();i++){
+            char ch = str.charAt(i);
+            if(result.indexOf(ch)==-1){
+                result = result +ch;
+            }
+        }
+        return result;
+
+    }
+}
+
+Ans 2-->>
+import java.util.*;
+
+public class DuplicateOfStrings {
+    public static void main(String[] args) {
+        String b = "Morocoo";
+        String c = b.toLowerCase();
+        String result = removeDuplicates(c);
+        System.out.println(result);
+    }
+
+    public static String removeDuplicates(String str) {
+
+        String result = "";
+        String duplicates = "";
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (result.indexOf(ch) == -1) {
+                result = result + ch;
+            } else if (duplicates.indexOf(ch) == -1) {
+                duplicates += ch;
+            }
+            
+        }
+        return duplicates;
+    }
+}
+
+Ans 3-->>
+public class palindromeOrNot {
+    public static void main(String[] args) {
+        int a = 2552;
+        boolean c =  palindrone( a);
+        System.out.println(c);
+    }
+    public static boolean palindrone(int a){
+        int sum=0;
+        int r;
+        int temp=a;
+        while(a>0){
+            r=a%10;
+            sum = sum * 10 + r ;
+            a = a /10;
+        }
+        if(sum == temp){
+            return true;
+        }
+        return false;
+    }
+}
+
+Ans 4-->>
+import java.util.Scanner;
+
+public class CheckNoOfChar {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+
+        int length = str.length();
+        int vowelCount = 0;
+        int consonantCount = 0;
+        int specialCharCount = 0;
+
+        for (int i = 0; i < length; i++) {
+            char ch = str.charAt(i);
+            if (Character.isLetter(ch)) {
+                ch = Character.toLowerCase(ch);
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                    vowelCount++;
+                } else {
+                    consonantCount++;
+                }
+            } else {
+                specialCharCount++;
+            }
+        }
+
+        System.out.println("Number of vowels: " + vowelCount);
+        System.out.println("Number of consonants: " + consonantCount);
+        System.out.println("Number of special characters: " + specialCharCount);
+    }
+}
+
+Ans 5-->>
+public class anagram {
+    public static void main(String[] args) {
+        String a= "secure";
+        String b = "rescue";
+        boolean anag = anagramChecking(a,b);
+        System.out.println(anag);
+    }
+    public static boolean anagramChecking(String a, String b){
+        int len = a.length();
+        int len2 = a.length();
+        String c= a.toLowerCase();
+        String d = b.toLowerCase();
+
+        if(len != len2){
+            return false;
+        }
+
+        int[] count1 = new int[26];
+        int[] count2 = new int[26];
+
+        for(int i=0; i<len-1 ; i++) {
+            count1[c.charAt(i) - 'a']++;
+            count2[d.charAt(i) - 'a']++;
+
+        }
+
+            for (int i = 0; i < 26; i++) {
+                if (count1[i] != count2[i]) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+    }
+
+Ans 6-->>
+public class pangram {
+    public static void main(String[] args) {
+        String a ="THE quick brown fox jumps over the lazy Dog";
+        boolean pang = checkPangram(a);
+        System.out.println(pang);
+
+    }
+    public static boolean checkPangram(String a ){
+        int len = a.length();
+        boolean[] mark = new boolean[26];
+        int Index = 0 ;
+        for( int i=0; i< len; i++){
+            if('A' <= a.charAt(i) && 'Z' >= a.charAt(i)){
+                Index = a.charAt(i)-'A';
+            } else if ('a'<= a.charAt(i) && 'z'>= a.charAt(i)) {
+                Index =  a.charAt(i) - 'a';
+
+            }
+            else {
+                continue;
+            }
+            mark[Index] = true;
+        }
+        for(int i = 0; i< 26;i++){
+            if(!mark[i]){
+                return false;
+            }
+        }
+        return  true;
+    }
+}
+
+Ans 7-->>
+public class uniqueChar {
+    public static void main(String[] args) {
+        String a = " Rhythmn";
+        boolean abc = checkUniqueChar(a);
+        System.out.println(abc);
+    }
+    public static boolean checkUniqueChar( String a ){
+        char[] chArray = a.toCharArray();
+
+        for (int i = 0; i < chArray.length - 1; i++) {
+            if (chArray[i] != chArray[i + 1])
+                continue;
+
+            else
+                return false;
+        }
+        return true;
+    }
+    }
+
+Ans 8-->>
+public class maxChar {
+    public static void main(String[] args) {
+        String b = "elephant";
+        char abc = noOfChar(b);
+        System.out.println(abc);
+    }
+    public static char noOfChar(String b){
+        int count[] = new int[256];
+        int len = b.length();
+        for (int i = 0; i < len; i++)
+            count[b.charAt(i)]++;
+
+        int max = -1;
+        char result = ' ';
+
+
+        for (int i = 0; i < len; i++) {
+            if (max < count[b.charAt(i)]) {
+                max = count[b.charAt(i)];
+                result = b.charAt(i);
+            }
+        }
+
+        return result;
+    }
+
+}
+
+
+
+
+
