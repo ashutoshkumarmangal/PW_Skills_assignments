@@ -1,0 +1,86 @@
+Ans 1-->> Mutable strings are those strings whose content can be changed without creating a new object.StringBuffer and StringBuilder are used to create mutable strings.
+
+Ans 2-->> // reverse a string
+public class reverseString{
+public static void main(String[] args) {
+    String s = "PWSKILLS";
+    StringBuilder sb = new StringBuilder(s);
+    String reversedString = sb.reverse().toString();
+    System.out.println(reversedString);
+}
+}
+
+
+second way:---
+public class reverseString{
+    public static void main(String[] args) {
+        String a  = "pw skills";
+        String r = reversedString(a);
+        System.out.println(r);
+    }
+    public static String reversedString(String a){
+        char[] arr = a.toCharArray(); 
+        int s = 0; 
+        int e = a.length()-1;
+        while(s<e){
+            char temp = arr[s];
+            arr[s]=arr[e];
+            arr[e]= temp;
+            s++;
+            e--;
+        }
+        String reversedStr = new String(arr);
+        return reversedStr;
+    }
+}
+
+Ans 3-->>
+public class reverseSentence {
+    public static void main(String[] args) {
+        String sentence = "Hello, how are you?";
+        String reversedSentence = reverseWords(sentence);
+        System.out.println(reversedSentence);
+    }
+
+    public static String reverseWords(String sentence) {
+        String[] words = sentence.split("\\s+");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < words.length; i++) {
+            String reversedWord = reverseString(words[i]);
+            sb.append(reversedWord);
+            if (i < words.length - 1) {
+                sb.append(" ");
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String reverseString(String word) {
+        char[] charArray = word.toCharArray();
+        int start = 0;
+        int end = charArray.length - 1;
+        while (start < end) {
+            char temp = charArray[start];
+            charArray[start] = charArray[end];
+            charArray[end] = temp;
+            start++;
+            end--;
+        }
+        return new String(charArray);
+    }
+}
+
+Ans 4-->>
+import java.util.*;
+public class SortStringAlpha {
+    public static void main(String[] args) {
+        String a = "pwskills";
+        String b= sorting(a);
+        System.out.println(b);
+    }
+    public static String sorting(String a){
+        char[] arr = a.toCharArray();
+        Arrays.sort(arr);  
+        return new String(arr);
+    }
+}
